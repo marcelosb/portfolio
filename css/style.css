@@ -1,0 +1,76 @@
+body {
+	display: flex;
+	flex-direction: column;
+	font-family: Arial, sans-serif;
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+	background-color: #F1F1F1;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0px 30px;
+    box-sizing: border-box;
+}
+
+/* CABECALHO */
+
+header {
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    background-color: #151515;
+}
+
+header > h1 {
+	color: #FFFFFF;
+	font-weight: 400;
+}
+
+/* CONTEUDO PORFOLIO */
+
+.portfolio {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 30px;
+}
+
+.portfolio-item {
+	width: 300px;
+	height: 400px;
+	margin: 10px;
+	border: 1px solid #CCCCCC;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+	padding: 0px;
+}
+
+.portfolio-item > a {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+	height: 400px;
+	padding: 0px;
+	text-decoration: none;
+}
+
+.portfolio-item > a > .portfolio-image {
+	width: 300px;
+	height: 350px;
+}
+
+.portfolio-item > a > .portfolio-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	color: #777;
+}
