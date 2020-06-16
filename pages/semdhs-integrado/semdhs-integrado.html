@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html translate="no" lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Marcelo">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- MUDA COR DA BARRA DO NAVEGADOR DO CELULAR -->
+	<!-- Chrome, Firefox OS e Opera -->
+	<meta name="theme-color" content="#4285f4">
+	<!-- Windows Fone -->
+	<meta name="msapplication-navbutton-color" content="#4285f4">
+	<!-- IOS Safari -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<link rel="icon" href="../../img/favcon.ico">
+
+	<title>Sistem de gestão de filas de atendimento</title>
+	<meta name="description" content="Portfólio do desenvolvedor Marcelo Henrique, formando em ciência da computação pela UEPB (Universidade Estadual da Paraíba), desevolvedor de sites e sistemas.">
+	<link rel="stylesheet" type="text/css" href="semdhs-integrado.css">
+</head>
+<body>
+	<header>
+		<h1>
+			Sistema Integrado da SEMDHS
+		</h1>
+		<h2>
+			Sistema desenvolvido para a SEMDHS (Secretaria Municipal do Desenvolvimento Humano e Social) do municipio de São Bento/PB, o objetivo principal é integrar entidades da secretaria localizados em diferentes pontos da cidade, os cidadãos são atendidos nas devidas entidades e o sistema cria um histórico de atendimento por onde ele passa e é atendido, serão 3 entidades integradas (SEMDHS, CRAS E CREAS).
+		</h2>
+	</header>
+
+	<main>
+		<section class="wrapper">
+			<div class="home">
+				<div class="container-description-left">
+					<div class="title">
+						Registro de novos atendimentos em 4 passos
+					</div>
+					<div class="subtitle">
+						O sistema conta com um registro de atendimento dinâmico em 4 passos, onde o usuário pode ir para a próxima etapa do cadastro como também pode voltar para a página anterior, isso tudo sem perder os dados já digitados, pois o sistema trabalha com um armazenamento interno persistente, onde os dados não são perdidos ao voltar uma etapa para consertar um alteração inconclusiva.
+					</div>
+				</div>
+				<div class="container-image-right">
+					<img src="img/registrar_cidadao.png">
+				</div>
+			</div>
+		</section>
+
+		<section class="wrapper">
+			<div class="atendimento">
+				<div class="container-image-left">
+					<img src="img/registrar_unidade.png">
+				</div>
+				<div class="container-description-right">
+					<div class="title">
+						Registro de unidades ilimitadas
+					</div>
+					<div class="subtitle">
+						Na SEMDHS, o sistema foi integrado com 3 unidades, porém, podem ser registradas unidades de forma ilimitada, o painel é escalável, conseguindo se adaptar a qualquer outra secretaria pública que presta serviços a comunidade local.
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="wrapper">
+			<div class="painel">
+				<div class="container-description-center">
+					<div class="title">
+						Registro de serviços associados a uma unidade específica
+					</div>
+					<div class="subtitle">
+						O registro de serviços é sempre associado a uma unidade registrada no sistema, dessa forma, o sistema consegue manter a integridade entre a unidade e o tipo de serviço que será prestado.
+					</div>
+				</div>
+				<div class="container-image-center">
+					<img src="img/registrar_servicos.png">
+				</div>
+			</div>
+		</section>
+
+		<section class="wrapper">
+			<div class="home">
+				<div class="container-description-left">
+					<div class="title">
+						Registro de endereços da cidade: nome da rua, tipo e bairro
+					</div>
+					<div class="subtitle">
+						Como forma de facilitar o cadastro do endereço do cidadão, o sistema conta com um cadastro de endereços(nome da rua, tipo e bairro), após o cadastro dos endereços, o sistema conta com um recurso de auto completar, evitando assim, nomes incorretos no ato de registrar os endereços dos cidadãos.
+					</div>
+				</div>
+				<div class="container-image-right">
+					<img src="img/registrar_endereco.png">
+				</div>
+			</div>
+		</section>
+
+		<section class="wrapper">
+			<div class="atendimento">
+				<div class="container-image-left">
+					<img src="img/registrar_perfis.png">
+				</div>
+				<div class="container-description-right">
+					<div class="title">
+						Cadastro dos perfis de usuários que terão acesso ao sistema totalmente personalizável
+					</div>
+					<div class="subtitle">
+						O sistema conta com a criação de perfis ilimitados, podem ser criados perfis diferentes para cada unidade associada, um perfil associado a uma unidade específica é totalmente independente de outro perfil igual que é associado a outra unidade.
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="wrapper">
+			<div class="home">
+				<div class="container-description-left">
+					<div class="title">
+						Sistema de login simples e objetivo
+					</div>
+					<div class="subtitle">
+						A página de login é objetiva, sem muitas informações para não tirar a atenção do usuário que vai logar na plataforma, para entrar no sistema é bem simples, bastando apenas inserir o nome de usuário e senha, os usuários são criados internamente pelo administrador do sistema.
+					</div>
+				</div>
+				<div class="container-image-right">
+					<img src="img/login_semdhs.png">
+				</div>
+			</div>
+		</section>
+
+		<section class="wrapper">
+			<div class="tecnologias">
+				<div class="container-description-center">
+					<div class="title">
+						Tecnologias utilizadas
+					</div>
+					<div class="subtitle">
+						Para o desenvimento deste sistema foram utilizadas as seguintes tecnologias: PHP 7.1 com o gerenciador de dependências Composer, HTML5, CSS3 com enfase no flex-box, javascript utilizando AJAX e recursos do Ecma Script 2015, 2016, 2017, 2018, servidor web Apache, por fim, foi utilizado o padrão de arquitetura MVC(Model View Controller) adotado amplamente no mundo inteiro.
+					</div>
+				</div>
+				<div class="container-image-center">
+					<div class="tecnologia-item">PHP 7</div>
+					<div class="tecnologia-item">HTML5</div>
+					<div class="tecnologia-item">CSS3</div>
+					<div class="tecnologia-item">JS</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	
+</body>
+
+</html>
